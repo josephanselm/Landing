@@ -1,0 +1,86 @@
+html, body{
+	background:url(../images/back1.jpg) center center no-repeat;
+	height: 100%;
+	background-size: cover;
+}
+#logo img{
+	padding-top: 30px;
+}
+#intro p{
+	color: #5371FC;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+}
+#countdown .countclock{
+font-family: 'Kaushan Script', cursive;
+color: #5371FC;
+font-size: 3.2em;
+text-align: center;
+}
+#social ul{
+	text-align: center;
+}
+#social .fab{
+	color: #5371FC;
+	margin: 5px 15px;
+	font-size: 40px;
+	position: relative;
+	bottom: 0;
+	transition: all 0.3s ease-in-out;
+}
+#social .facebook:hover{
+	color:#4267B2;
+	bottom: 5px;
+}
+
+
+#social .twitter:hover{
+	color:#3AA1F2;
+	bottom: 5px;
+}
+
+
+#social .instagram:hover{
+	color:#C64292;
+	bottom: 5px;
+}
+
+#social .youtube:hover{
+	color:#E93F33;
+	bottom: 5px;
+}
+
+#signup{
+	text-align: center;
+}
+
+#signup .form-inline{
+	display: block;
+}
+#signup .btn{
+	background-color: #99A1E0;
+}
+
+#signup .btn:hover{
+	background-color: #0062CC;
+}
+@media(max-width: 768px) {
+	#logo img {
+		width: 50%;
+	}
+	#intro p{
+		font-size: 0.8em;
+	}
+	#countdown .countclock{
+		font-size: 1.2em;
+	}
+	#social .fab{
+		margin: 5px 10px;
+	}
+}
+@media(min-width: 321px) and (min-width: 568px){
+	#logo img{
+		width: 30%;
+	}
+}
